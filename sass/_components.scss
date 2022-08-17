@@ -1,10 +1,14 @@
 .navbar {
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
   margin-bottom: 5rem;
   min-height: 6rem;
+  
+  
+  
   
   
 
@@ -260,7 +264,7 @@
     width: 100%;
     display: block;
     
-    margin-bottom: .5rem;
+    margin-bottom: 1.5rem;
     
    
   }
@@ -272,9 +276,13 @@
 }
 
 
+
+
+
+
 @media only screen and (max-width:900px) {
   html {
-    font-size: 40%;
+    font-size: 50%;
   }
 
   .hero {
@@ -287,12 +295,14 @@
     }
   }
 
+  
+
 }
 
 
 @media only screen and (max-width:653px) {
   html {
-    font-size: 40%;
+    font-size: 50%;
   }
 
   .header-1 {
@@ -314,4 +324,6 @@
 
   
 }
+
+  
 

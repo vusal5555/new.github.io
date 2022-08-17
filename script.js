@@ -14,3 +14,10 @@ document.querySelectorAll(".navbar--link").forEach(n => n.addEventListener("clic
 }))
 
 
+window.addEventListener("scroll", function() {
+  const navMenu = document.querySelector(".navbar--right");
+  navMenu.classList.toggle("sticky", window.scrollY > 0)
+
+})
+
+
