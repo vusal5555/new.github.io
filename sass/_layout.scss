@@ -1,0 +1,109 @@
+ 
+
+.brends {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  
+
+  margin-top: 15rem;
+}
+
+.wrapper {
+  display: none;
+}
+
+
+@media only screen and (max-width:1200px) {
+
+
+
+  html {
+    font-size: 50%;
+  }
+  // .container {
+    
+  //   gap: 15rem;
+  // }
+
+  
+  
+  
+
+}
+
+// @media only screen and (max-width:1350px) {
+//   .container {
+//     grid-template-columns: 1fr;
+//     gap: 15rem;
+//     max-width: 100%;
+//     width: 100%;
+//     margin: 0;
+//     text-align: center;
+    
+    
+    
+//   }
+
+// }
+
+
+
+
+
+.features {
+  width: 80%;
+  margin: 15rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 10rem;
+  grid-row-gap: 5rem ;
+  text-align: center;
+
+
+
+  &--text {
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+}
+.feature {
+  
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+}
+
+.hero {
+  width: 80%;
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 15rem;
+
+
+
+  &--box {
+    
+    
+  }
+
+  &--heading {
+    font-size: 5rem;
+    line-height: 1;
+    margin-bottom: 2.5rem;
+  }
+
+  &--text {
+    font-size: 1.9rem;
+  }
+
+  &--img {
+    width: 100%;
+    
+    
+    
+
+  }
+}
+
