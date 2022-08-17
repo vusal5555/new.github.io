@@ -244,8 +244,9 @@
   width: 80%;
   margin: 15rem auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
-  gap: 10rem;
+  // grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
   padding: 15rem 0;
   overflow-y: hidden;
     
@@ -281,9 +282,12 @@
 
 
 @media only screen and (max-width:900px) {
+  
   html {
     font-size: 50%;
   }
+  
+  
 
   .hero {
     &--heading {
@@ -295,12 +299,19 @@
     }
   }
 
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
   
 
 }
 
 
-@media only screen and (max-width:653px) {
+@media only screen and (max-width:600px) {
+
+  
+
   html {
     font-size: 50%;
   }
@@ -319,6 +330,19 @@
     
     }
   }
+
+  .card {
+    &--text {
+      line-break: auto;
+    }
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  
+   
 
   
 
