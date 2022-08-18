@@ -149,7 +149,8 @@ body {
 
 @media only screen and (max-width: 768px) {
   .hamburger {
-    display: block; }
+    display: block;
+    z-index: 100; }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0; }
   .hamburger.active .bar:nth-child(1) {
@@ -157,9 +158,10 @@ body {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg); }
   .navbar--right {
+    padding-top: 7rem;
     position: fixed;
     right: -100%;
-    top: 70px;
+    top: 0;
     gap: 0;
     flex-direction: column;
     background-color: #fff;
@@ -230,4 +232,6 @@ body {
   .card--text {
     line-break: auto; }
   .cards {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .hamburger {
+    transform: translateX(2.5rem); } }
